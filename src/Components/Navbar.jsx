@@ -63,7 +63,7 @@ function Navbar() {
                 className="cursor-pointer"
               />
             </button>
-            <ul className="text-lg space-y-4">
+            <div className="text-lg space-y-4">
               {["home", "destination", "crew", "technology"].map(
                 (item, index) => {
                   return (
@@ -79,7 +79,7 @@ function Navbar() {
                   );
                 }
               )}
-            </ul>
+            </div>
           </div>
         </div>
         <div className="burger md:hidden block pr-6 ">

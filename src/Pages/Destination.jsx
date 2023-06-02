@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import data from "../data.json";
+import { Helmet } from "react-helmet";
 
 function Destination() {
   const [activeLink, setActiveLink] = useState("Moon");
@@ -14,6 +15,10 @@ function Destination() {
   }
   return (
     <div className="font-cfont1 bg-black text-white ">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Destination</title>
+      </Helmet>
       <div className="absolute min-h-screen h-full inset-0">
         <img
           className="object-cover h-full w-full md:hidden"

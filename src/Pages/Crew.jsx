@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import data from "../data.json";
+import { Helmet } from "react-helmet";
 
 function Crew() {
   const [activeLink, setActiveLink] = useState("Douglas Hurley");
@@ -13,6 +14,10 @@ function Crew() {
 
   return (
     <div className="font-cfont2 bg-black text-white ">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Crew</title>
+      </Helmet>
       <div className="absolute min-h-screen h-full inset-0">
         <img
           className="object-cover h-full w-full md:hidden"
