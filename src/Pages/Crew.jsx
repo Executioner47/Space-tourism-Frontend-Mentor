@@ -15,7 +15,6 @@ function Crew() {
   return (
     <div className="font-cfont2 bg-black text-white ">
       <Helmet>
-        <meta charSet="utf-8" />
         <title>Crew</title>
       </Helmet>
       <div className="absolute min-h-screen h-full inset-0">

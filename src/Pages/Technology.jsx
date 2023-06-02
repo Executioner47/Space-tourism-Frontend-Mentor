@@ -12,7 +12,6 @@ function Technology() {
   return (
     <div className="font-cfont2 bg-black text-white ">
       <Helmet>
-        <meta charSet="utf-8" />
         <title>Technology</title>
       </Helmet>
       <div className="absolute min-h-screen h-full inset-0">

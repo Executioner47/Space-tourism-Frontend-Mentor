@@ -16,7 +16,6 @@ function Destination() {
   return (
     <div className="font-cfont1 bg-black text-white ">
       <Helmet>
-        <meta charSet="utf-8" />
         <title>Destination</title>
       </Helmet>
       <div className="absolute min-h-screen h-full inset-0">
