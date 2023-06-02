@@ -10,7 +10,7 @@ function Technology() {
     setItem(data.technology[member - 1]);
   }
   return (
-    <div className="font-cfont2 bg-black text-white ">
+    <main className="font-cfont2 bg-black text-white ">
       <Helmet>
         <title>Technology</title>
       </Helmet>
@@ -82,7 +82,7 @@ function Technology() {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 }
 

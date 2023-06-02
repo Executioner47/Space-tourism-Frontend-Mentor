@@ -14,7 +14,7 @@ function Destination() {
     setItem(newItems[0]);
   }
   return (
-    <div className="font-cfont1 bg-black text-white ">
+    <main className="font-cfont1 bg-black text-white ">
       <Helmet>
         <title>Destination</title>
       </Helmet>
@@ -102,7 +102,7 @@ function Destination() {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 }
 

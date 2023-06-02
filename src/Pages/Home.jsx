@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet";
 
 function Home() {
   return (
-    <div className="h-[75vh] font-cfont1 bg-black text-white flex justify-center items-center bg-cover bg-center">
+    <main className="h-[75vh] font-cfont1 bg-black text-white flex justify-center items-center bg-cover bg-center">
       <Helmet>
         <title>Home</title>
       </Helmet>
@@ -50,7 +50,7 @@ function Home() {
           </Link>
         </div>
       </div>
-    </div>
+    </main>
   );
 }
 

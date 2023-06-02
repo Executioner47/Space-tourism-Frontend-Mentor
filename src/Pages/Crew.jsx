@@ -13,7 +13,7 @@ function Crew() {
   }
 
   return (
-    <div className="font-cfont2 bg-black text-white ">
+    <main className="font-cfont2 bg-black text-white ">
       <Helmet>
         <title>Crew</title>
       </Helmet>
@@ -84,7 +84,7 @@ function Crew() {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 }
 
